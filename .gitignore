@@ -1,0 +1,17 @@
+# Skip these
+02_Complete_Modeling_Pipeline.ipynb
+DELIVERY_SUMMARY.txt
+Food_Waste_Reduction_Report.pdf
+FINAL_SUBMISSION_CHECKLIST.md
+IMPORT_FIX_GUIDE.md
+Presentation_Outline.md
+Team_Summary_Guide.md
+
+# Data files
+data/*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/

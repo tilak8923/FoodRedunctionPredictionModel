@@ -1,0 +1,21 @@
+FOOD WASTE REDUCTION PROJECT - SUMMARY REPORT
+======================================================================
+
+BEST MODEL: Random Forest
+RMSE: 6.8346
+R² Score: 0.9438
+
+WASTE REDUCTION:
+- Current scenario (20% overstock): 1904641 units
+- Optimized scenario (5% buffer): 757924 units
+- Waste reduced: 60.2% (1146718 units)
+
+DATA INSIGHTS:
+- Training period: 2013-2017 (913,000+ records)
+- 10 stores, 50 items
+- Features: temporal patterns, lags, rolling averages
+- Model comparison: Linear Regression vs Random Forest vs ARIMA
+
+CONCLUSION:
+Random Forest can reduce food waste by 60.2% while maintaining 
+product availability with a smaller safety buffer.
