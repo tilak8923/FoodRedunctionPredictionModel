@@ -1,7 +1,5 @@
 # Complete Modeling Pipeline - Quick Start Guide
 
-## What This Notebook Does (In 10 Minutes of Reading)
-
 This is your **all-in-one modeling solution** that:
 
 1. ✅ Prepares your data with smart features
@@ -40,53 +38,53 @@ jupyter notebook
 
 ## Running the Notebook (Follow This Order)
 
-### **PART 1: Setup & Load Data** ⏱️ 30 seconds
+### **PART 1: Setup & Load Data**
 - Just run the code cells
 - You'll see: "✓ All libraries imported successfully"
 
-### **PART 2: Data Preparation & Features** ⏱️ 1 minute
+### **PART 2: Data Preparation & Features**
 - Creates smart features from dates (day-of-week, month, etc.)
 - Adds historical patterns (lag features, rolling averages)
 - Shows sample of engineered features
 - **What to look for:** New columns like `lag_1`, `rolling_mean_7`
 
-### **PART 3: Data Split** ⏱️ 10 seconds
+### **PART 3: Data Split**
 - Splits data: 80% for training, 20% for testing
 - You'll see: "Training set: X samples, Test set: Y samples"
 
-### **PART 4: Linear Regression** ⏱️ 20 seconds
+### **PART 4: Linear Regression**
 - Simple baseline model
 - Shows: RMSE, MAE, R² scores
 - **Don't worry about exact numbers** - we're comparing all 3
 
-### **PART 5: Random Forest** ⏱️ 30 seconds
+### **PART 5: Random Forest**
 - More advanced model that catches patterns
 - Shows: Feature importance (what matters most?)
 - Chart: Which features help predict sales?
 - **Key insight:** Which features rank highest?
 
-### **PART 6: ARIMA** ⏱️ 1-2 minutes (might take time, that's OK!)
+### **PART 6: ARIMA** 
 - Time-series model (good for patterns over time)
 - Shows: Actual vs Forecast chart
 - **Note:** This might take 30-60 seconds - don't interrupt!
 
-### **PART 7: Model Comparison** ⏱️ 1 minute
+### **PART 7: Model Comparison** 
 - 📊 Shows all 3 models side-by-side
 - ✅ **PICKS THE BEST ONE** (this is important!)
 - You'll see clearly which model wins
 
-### **PART 8: Waste Reduction Calculation** ⏱️ 2 minutes
+### **PART 8: Waste Reduction Calculation** 
 - 🎯 **THIS IS THE MONEY PART**
 - Shows current waste (with 20% overstock)
 - Shows optimized waste (with smart forecasting)
 - **RESULT:** How many % of waste can you reduce?
 - Visualizations: Bar charts + pie charts
 
-### **PART 9: Final Predictions** ⏱️ 30 seconds
+### **PART 9: Final Predictions** 
 - Makes predictions for the test set
 - Saves to `results/predictions.csv` for submission
 
-### **PART 10: Summary** ⏱️ 30 seconds
+### **PART 10: Summary** 
 - Prints final project summary
 - Saves `results/project_summary.txt`
 
@@ -242,34 +240,8 @@ Reduction: 400 units = 40% less waste!
 - [ ] Create report using findings
 - [ ] Create presentation slides
 - [ ] Double-check: All CSV files loaded correctly
-- [ ] Ready to submit!
+- [ ] Ready to Deploy!
 
 ---
 
-## Questions While Running?
 
-If you encounter issues:
-1. Check the error message carefully
-2. Look for file path issues (most common)
-3. Check if all libraries are installed
-4. Try re-running the cell (sometimes works)
-5. If stuck, share the error message
-
----
-
-## Next: Write Your Report
-
-Once you have the results, follow this structure:
-
-**Introduction:** What is the problem?
-**Data:** What data did you use?
-**Methodology:** What models did you try?
-**Results:** Which model won? By how much?
-**Impact:** How much waste can you reduce?
-**Conclusion:** Why does this matter?
-
-Use the visualizations from the notebook in each section.
-
----
-
-**You're ready to go! Run the notebook, capture the results, and submit.** 🚀
